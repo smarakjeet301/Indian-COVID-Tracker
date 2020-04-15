@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_stat"
+        android:icon="@drawable/ic_stat"
+        android:title="@string/stats" />
+
+    <item
+        android:id="@+id/navigation_hotspots"
+        android:icon="@drawable/ic_hotspots"
+        android:visible="false"
+        android:title="@string/hotspots" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/ic_news"
+        android:title="News" />
+
+    <item
+        android:id="@+id/navigation_advices"
+        android:icon="@drawable/ic_advice"
+        android:title="@string/advices" />
+
+</menu>

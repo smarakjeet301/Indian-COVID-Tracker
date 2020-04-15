@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/state_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/_5sdp"
+        android:text="STATE/UT"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/cnfm_case"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="CNFMD"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actv_case"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="ACTV"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rcvrd_case"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="RCVRD"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dcsd_case"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/_5sdp"
+        android:text="DCSD"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Indian COVID Tracker</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="stats">Stats</string>
+    <string name="advices">Advices</string>
+    <string name="about">About</string>
+    <string name="hotspots">Hotspots</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="headline">Indian COVID Tracker</string>
+    <string name="search_for_state">Search for state</string>
+    <string name="news_description">More than a billion people are being asked to stay indoors for 14-hours to try to combat the pandemic.</string>
+    <string name="news_title">Coronavirus: India observes 14-hour curfew</string>
+    <string name="news">News</string>
+    <string name="api_source">Data Source from\n<u>https://api.covid19india.org</u></string>
+</resources>
